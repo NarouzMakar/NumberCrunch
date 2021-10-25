@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NumberCrunchService } from 'src/app/shared/data-services/number-crunch.service';
-import { NumberCrunchVm } from 'src/app/shared/ViewModels/numberCrunchVm';
 import { ViewNumberCrunchModel } from './view-number-crunchModel';
 
 @Component({
@@ -14,9 +13,6 @@ export class ViewNumberCrunchComponent implements OnInit {
      private route: ActivatedRoute,
      private router: Router){}
   model: ViewNumberCrunchModel;
-  className: string ='';
-  headerClassName: string ='';
-
   ngOnInit(): void {
     this.model = new ViewNumberCrunchModel();
     this.loadNumberCrunchDetails();

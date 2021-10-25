@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Experity.Infrastructure
 {
-    public class DatabaseConnectionString: IDatabaseReadOnlyConnectionString
+    public class DatabaseConnectionString: IDatabaseConnectionString
     {
         public DatabaseConnectionString(string connectionString)
         {

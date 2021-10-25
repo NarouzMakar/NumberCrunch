@@ -14,7 +14,7 @@ namespace Experity.Infrastructure.EntityConfigurations
     {
         public virtual void Configure(EntityTypeBuilder<T> builder)
         {
-            //Base Configuration
+            builder.HasKey(e => e.Id);
         }
 
     }

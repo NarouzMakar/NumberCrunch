@@ -1,7 +1,5 @@
-import { Component, EventEmitter, Input, OnInit, Output, ViewEncapsulation } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { Router } from '@angular/router';
-import { NumberCrunchService } from 'src/app/shared/data-services/number-crunch.service';
 import { StartNumberCrunchModel } from './manage-number-crunchModel';
 
 @Component({
@@ -10,7 +8,7 @@ import { StartNumberCrunchModel } from './manage-number-crunchModel';
   styleUrls: ['./manage-number-crunch.component.css']
 })
 export class ManageNumberCrunchComponent implements OnInit {
-  constructor(private ncService: NumberCrunchService, private router: Router, private formBuilder: FormBuilder){}
+  constructor(private formBuilder: FormBuilder){}
   model: StartNumberCrunchModel;
   crunchForm: FormGroup;
   private _isViewMode: boolean;

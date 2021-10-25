@@ -14,10 +14,6 @@ import { NumberCrunchVm } from "../ViewModels/numberCrunchVm";
       super(apiService, 'NumberCrunch');
     }
 
-    // getAll(): Observable<JsonActionResult<SectionWithItemsModel[]>> {
-    //   return this.get('').pipe(map(res => res as JsonActionResult<SectionWithItemsModel[]>));
-    // }
-
     submit(model: StartNumberCrunchModel): Observable<JsonActionResult<number>> {
       return this.post('', { body: model }).pipe(map(res => res as JsonActionResult<number>));
     }

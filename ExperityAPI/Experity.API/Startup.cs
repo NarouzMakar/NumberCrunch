@@ -53,7 +53,10 @@ namespace Experity.API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Experity.API v1"));
+                app.UseSwaggerUI(options =>
+                {
+                    options.DefaultModelsExpandDepth(-1);
+                });
             }
             else
             {

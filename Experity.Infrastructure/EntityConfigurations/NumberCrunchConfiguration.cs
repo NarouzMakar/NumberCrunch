@@ -15,7 +15,6 @@ namespace Experity.Infrastructure.EntityConfigurations
         {
             base.Configure(builder);
             builder.ToTable("numberCrunch");
-            builder.HasKey(e => e.Id);
         }
     }
 }

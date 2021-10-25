@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
 import { NumberCrunchService } from 'src/app/shared/data-services/number-crunch.service';
 import { StartNumberCrunchModel } from './start-number-crunchModel';
@@ -10,7 +9,7 @@ import { StartNumberCrunchModel } from './start-number-crunchModel';
   styleUrls: ['./start-number-crunch.component.css']
 })
 export class StartNumberCrunchComponent implements OnInit {
-  constructor(private ncService: NumberCrunchService, private router: Router, private formBuilder: FormBuilder){}
+  constructor(private ncService: NumberCrunchService, private router: Router){}
   model: StartNumberCrunchModel;
 
   ngOnInit(): void {
