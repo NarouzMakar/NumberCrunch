@@ -7454,11 +7454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Experity\\v2\\ExperityRepo\\Experity.Infrastructure\\Experity.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Projects\\Experity\\NumberCrunch\\NumberCrunch\\Experity.Infrastructure\\Experity.Infrastructure.csproj",
       "projectName": "Experity.Infrastructure",
-      "projectPath": "D:\\Projects\\Experity\\v2\\ExperityRepo\\Experity.Infrastructure\\Experity.Infrastructure.csproj",
+      "projectPath": "D:\\Projects\\Experity\\NumberCrunch\\NumberCrunch\\Experity.Infrastructure\\Experity.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Narouz\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Experity\\v2\\ExperityRepo\\Experity.Infrastructure\\obj\\",
+      "outputPath": "D:\\Projects\\Experity\\NumberCrunch\\NumberCrunch\\Experity.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Narouz\\AppData\\Roaming\\NuGet\\NuGet.Config",

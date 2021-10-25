@@ -7377,11 +7377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Experity\\v2\\ExperityRepo\\Experity.Business\\Experity.Business.csproj",
+      "projectUniqueName": "D:\\Projects\\Experity\\NumberCrunch\\NumberCrunch\\Experity.Business\\Experity.Business.csproj",
       "projectName": "Experity.Business",
-      "projectPath": "D:\\Projects\\Experity\\v2\\ExperityRepo\\Experity.Business\\Experity.Business.csproj",
+      "projectPath": "D:\\Projects\\Experity\\NumberCrunch\\NumberCrunch\\Experity.Business\\Experity.Business.csproj",
       "packagesPath": "C:\\Users\\Narouz\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Experity\\v2\\ExperityRepo\\Experity.Business\\obj\\",
+      "outputPath": "D:\\Projects\\Experity\\NumberCrunch\\NumberCrunch\\Experity.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Narouz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7398,8 +7398,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Projects\\Experity\\v2\\ExperityRepo\\Experity.Infrastructure\\Experity.Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\Experity\\v2\\ExperityRepo\\Experity.Infrastructure\\Experity.Infrastructure.csproj"
+            "D:\\Projects\\Experity\\NumberCrunch\\NumberCrunch\\Experity.Infrastructure\\Experity.Infrastructure.csproj": {
+              "projectPath": "D:\\Projects\\Experity\\NumberCrunch\\NumberCrunch\\Experity.Infrastructure\\Experity.Infrastructure.csproj"
             }
           }
         }
