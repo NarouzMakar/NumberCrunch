@@ -25,12 +25,9 @@ export class ViewNumberCrunchComponent implements OnInit {
   loadNumberCrunchDetails(){
     this.route.params.subscribe(params =>{
       let id = params['id'];
-      console.log(id);
       this.ncService.getNumberCrunchList(id).subscribe(resp =>{
-        debugger;
         if (resp.isSuccess) {
           this.model.numberCrunchList = resp.result;
-          console.log(this.model.numberCrunchList);
         }
       });
     });

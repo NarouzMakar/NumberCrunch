@@ -36,12 +36,6 @@ export class ManageNumberCrunchComponent implements OnInit {
     if(this.crunchForm.valid || this._isViewMode){
       this.model = this.crunchForm.getRawValue();
       this.sumbitData.emit(this.model);
-      // this.ncService.submit(this.model).subscribe(resp =>{
-      //   if (resp.isSuccess) {
-      //     let id = resp.result;
-      //     this.router.navigateByUrl(`numberCrunch/v1/view/${id}`);
-      //   }
-      // });
     }
   }
 }

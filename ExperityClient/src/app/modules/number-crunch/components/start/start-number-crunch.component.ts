@@ -18,7 +18,6 @@ export class StartNumberCrunchComponent implements OnInit {
   }
 
   submit(data: any){
-    debugger;
     if(this.model.isView){
       this.ncService.submit(data).subscribe(resp =>{
         if (resp.isSuccess) {
