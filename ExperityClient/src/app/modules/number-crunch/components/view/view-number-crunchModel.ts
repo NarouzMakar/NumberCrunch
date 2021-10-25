@@ -2,8 +2,9 @@ import { NumberCrunchVm } from "src/app/shared/ViewModels/numberCrunchVm";
 
 export class ViewNumberCrunchModel {
   numberCrunchList: NumberCrunchVm[];
-test: string;
+  selectedView: number;
   constructor() {
     this.numberCrunchList = [];
+    this.selectedView = 1;
   }
 }

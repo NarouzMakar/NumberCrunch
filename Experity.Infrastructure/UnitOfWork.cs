@@ -19,9 +19,6 @@ namespace Experity.Infrastructure
 
         #region Repositories
 
-        private IOperationRepository operationRepository;
-        public IOperationRepository OperationRepository => operationRepository ??= new OperationRepository(dbContext);
-
         private INumberCrunchRepository numberCrunchRepository;
         public INumberCrunchRepository NumberCrunchRepository => numberCrunchRepository ??= new NumberCrunchRepository(dbContext);
 

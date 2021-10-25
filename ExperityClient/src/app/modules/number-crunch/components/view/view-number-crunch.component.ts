@@ -10,11 +10,15 @@ import { ViewNumberCrunchModel } from './view-number-crunchModel';
   styleUrls: ['./view-number-crunch.component.css']
 })
 export class ViewNumberCrunchComponent implements OnInit {
-  constructor(private ncService: NumberCrunchService, private route: ActivatedRoute){}
+  constructor(private ncService: NumberCrunchService,
+     private route: ActivatedRoute,
+     private router: Router){}
   model: ViewNumberCrunchModel;
+  className: string ='';
+  headerClassName: string ='';
+
   ngOnInit(): void {
     this.model = new ViewNumberCrunchModel();
-    this.model.test = "Narouz0";
     this.loadNumberCrunchDetails();
   }
 
@@ -30,6 +34,10 @@ export class ViewNumberCrunchComponent implements OnInit {
         }
       });
     });
+  }
+
+  goBack(){
+    this.router.navigateByUrl('numberCrunch/v1/start');
   }
 
 }

@@ -9,7 +9,6 @@ namespace Experity.Infrastructure
 {
    public interface IUnitOfWork
     {
-        IOperationRepository OperationRepository { get; }
         INumberCrunchRepository NumberCrunchRepository { get; }
 
         int SaveChanges();

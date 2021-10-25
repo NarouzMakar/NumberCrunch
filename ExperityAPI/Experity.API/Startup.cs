@@ -31,7 +31,6 @@ namespace Experity.API
             services.AddRazorPages();
             services.AddSingleton<IDatabaseConnectionString>((serviceProvider) => new DatabaseConnectionString(Configuration.GetConnectionString("SqlConn")));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<IOperationService, OperationService>();
             services.AddScoped<INumberCrunchService, NumberCrunchService>();
             services.AddSwaggerGen(c =>
             {
